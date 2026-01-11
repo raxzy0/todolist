@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    display:grid;
+    background: rgb(138, 138, 138);
+    grid-template-columns: 1fr 4fr;
+}
+
+
+main {
+    padding: 20px;
+}
+aside {
+    background-color: rgb(77, 77, 77);
+    padding: 20px;
+    height: 100vh;
+}
+
+.todoBox {
+    display:flex;
+    gap: 10px;
+}
+
+.title{
+    font-weight: bold;
+}
